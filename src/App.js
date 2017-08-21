@@ -23,7 +23,7 @@ export default class App extends Component {
           selectedKeys={[this.state.current]}
           mode="horizontal"
         >
-          <div className="logo">LuckyYao</div>
+          <div className="logo">LUCKY YAO</div>
           <Menu.Item key="mail">
             <Icon type="mail" />技术
           </Menu.Item>
