@@ -1,0 +1,6 @@
+node_modules
+node_modules/**
+*.scssc
+*.css.map
+yarn.lock
+yarn-error.log
