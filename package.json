@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^2.12.7",
+    "babel-plugin-import": "^1.4.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.11"
