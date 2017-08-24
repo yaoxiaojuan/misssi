@@ -7,4 +7,15 @@ footer{
   left: 50%;
   margin-left: -320px;
   font-size: .8em;
+  padding: 0 1em 3em;
+  box-sizing: border-box;
+}
+@media (max-width: 640px) {
+  footer{
+    width: 90%;
+    margin-left: -45%;
+  }
+  footer span{
+    display: block;
+  }
 }
