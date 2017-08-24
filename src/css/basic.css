@@ -1,13 +1,33 @@
 html{
   background: #fff;
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  margin-right: 1em;
+}
+ul li:last-child{
+  margin-right: 0;
+}
+
+.container{
+  width: 640px;
+  margin: auto;
+}
 .highLight{
   color: #3294a3;
 }
-img{
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: auto;
-  background: url(../img/logo.png);
+.dark{
+  color: #999;
+}
+@media (max-width: 640px) {
+  .container{
+    width: 100%;
+  }
 }
