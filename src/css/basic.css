@@ -1,5 +1,6 @@
 html{
   background: #fff;
+  color: #333;
 }
 ul{
   margin: 0;
@@ -19,15 +20,20 @@ ul li:last-child{
 .container{
   width: 640px;
   margin: auto;
+  padding-bottom: 9em;
+  position: relative;
 }
 .highLight{
   color: #3294a3;
+}
+a.highLight{
+  color: #000;
 }
 .dark{
   color: #999;
 }
 @media (max-width: 640px) {
   .container{
-    width: 100%;
+    width: 90%;
   }
 }
