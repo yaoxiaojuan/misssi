@@ -1,0 +1,13 @@
+html{
+  background: #fff;
+}
+.highLight{
+  color: #3294a3;
+}
+img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  background: url(../img/logo.png);
+}
