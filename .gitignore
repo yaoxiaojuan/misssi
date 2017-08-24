@@ -4,3 +4,5 @@ node_modules/**
 *.css.map
 yarn.lock
 yarn-error.log
+build
+build/**
