@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import logo from '../../img/logo1.png';
 import './header.css';
 
 export default class Header extends Component {
-  state = {}
-
   render() {
     return (
       <header>
@@ -15,9 +14,9 @@ export default class Header extends Component {
         </div>
         <nav>
           <ul>
-            <li><a href="">最新</a></li>
-            <li><a href="">标签</a></li>
-            <li><a href="">关于</a></li>
+            <li><Link to="/">最新</Link></li>
+            <li><Link to="/tags">标签</Link></li>
+            <li><Link to="/about">关于</Link></li>
           </ul>
         </nav>
       </header>
