@@ -17,3 +17,9 @@
 [测试是否解析成功](https://help.aliyun.com/knowledge_detail/39834.html)
 
 [GoodSync](https://www.goodsync.com/)本地文件和主机上文件夹同步
+
+## 刚知道的一些事
+
+> 在主机上开放路径下放代码库中 `yarn build`之后的`build`文件夹里面内容就好
+
+> `config`里面生产和开发环境两个`webpack`配置文件，依赖的包什么的，修改的时候都得改呀（以前没关心过生产环境的东西，真没注意）
