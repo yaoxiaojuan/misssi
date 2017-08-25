@@ -1,4 +1,7 @@
-## LuckyYao的个人博客
+<img src="http://www.luckyyao.net/static/media/logo1.f1bec0fb.png" alt="LUCKY YAO" style="width:50px;height:50px;margin: 15px auto;" />
+
+## 要笑娟的个人博客
+地址： http://www.luckyyao.net/
 
 以自我为中心的内容分享平台，涉及宗教，历史，技术，运动，旅行等方面。
 
