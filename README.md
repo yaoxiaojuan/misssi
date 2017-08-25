@@ -1,4 +1,4 @@
-<img src="http://www.luckyyao.net/static/media/logo1.f1bec0fb.png" alt="LUCKY YAO" style="width:50px;height:50px;margin: 15px auto;" />
+<img src="http://www.luckyyao.net/static/media/logo1.f1bec0fb.png" alt="LUCKY YAO" width="200" height="200" />
 
 ## 要笑娟的个人博客
 地址： http://www.luckyyao.net/
@@ -7,7 +7,7 @@
 
 ## 快速构建这个系统
 
-[Antd官方相教程：在 create-react-app 中使用Antd](https://ant.design/docs/react/use-with-create-react-app-cn)
+[Antd官方教程：在 create-react-app 中使用Antd](https://ant.design/docs/react/use-with-create-react-app-cn)
 
 [React-router-dom](http://reacttraining.cn/web/example/basic)
 
