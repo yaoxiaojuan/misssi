@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './container/Home';
 import About from './container/About';
 import Tags from './container/Tags';
+import ArticleInfo from './components/ArticleInfo';
 
 export default class App extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/tags" component={Tags}/>
+          <Route path="/article/:id" component={ArticleInfo}/>
           <Footer/>
         </section>
       </Router>

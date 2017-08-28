@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import ReactMarkdown  from 'react-markdown';
 import './article.css';
+import README from './README.md';
 
 export default class ArticleInfo extends Component {
   render() {
     return (
       <section>
-        <h2>文章标题</h2>
-        <p>文章简介</p>
+        <ReactMarkdown
+          source={README}
+        />
       </section>
     );
   }

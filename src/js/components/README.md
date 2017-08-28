@@ -1,13 +1,11 @@
-<img src="http://www.luckyyao.net/static/media/logo1.f1bec0fb.png" alt="LUCKY YAO" width="200" height="200" />
-
 ## 要笑娟的个人博客
 地址： http://www.luckyyao.net/
 
 以自我为中心的内容分享平台，涉及宗教，历史，技术，运动，旅行等方面。
 
 ## 技术栈
-> react + react-router-dom
-> [react-markdown](https://github.com/rexxars/react-markdown)
+react + react-router-dom
+[react-markdown](https://github.com/rexxars/react-markdown)
 
 ## 快速构建这个系统
 
@@ -30,6 +28,6 @@
 
 ## 刚知道的一些事
 
-> 在主机上开放路径下放代码库中 `yarn build`之后的`build`文件夹里面内容就好
+ 在主机上开放路径下放代码库中 `yarn build`之后的`build`文件夹里面内容就好
 
-> `config`里面生产和开发环境两个`webpack`配置文件，依赖的包什么的，修改的时候都得改呀（以前没关心过生产环境的东西，真没注意）
+ `config`里面生产和开发环境两个`webpack`配置文件，依赖的包什么的，修改的时候都得改呀（以前没关心过生产环境的东西，真没注意）
