@@ -8,6 +8,7 @@
 ## 技术栈
 > react + react-router-dom
 > [react-markdown](https://github.com/rexxars/react-markdown)
+> [raw-loader](https://github.com/webpack-contrib/raw-loader)
 
 ## 快速构建这个系统
 
