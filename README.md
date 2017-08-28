@@ -13,7 +13,7 @@
 
 [Antd官方教程：在 create-react-app 中使用Antd](https://ant.design/docs/react/use-with-create-react-app-cn)
 
-[React-router-dom](http://reacttraining.cn/web/example/basic)
+[React-router-dom](http://reacttraining.cn)
 
 
 ## 如何把博客系统放到网上
