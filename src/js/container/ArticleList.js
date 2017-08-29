@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import articleList from './articleList.json';
+import { articles }from '../article/list';
 
 export default class ArticleList extends Component {
   getArticles = () => {
-    let articles = [];
-    for(let key in articleList){
-      articles.push(
+    let result = [];
+    for(let key in articles){
+      result.push(
         <li key={key}>
           <Link to={"/article/" + key}>
-            <h1>{articleList[key]['title']}</h1>
+            <h1>{articles[key]['title']}</h1>
           </Link>
-          <p>{articleList[key]['info']}</p>
+          <p>{articles[key]['info']}</p>
         </li>
       )
     }
-    return articles;
+    return result;
   }
 
   render() {

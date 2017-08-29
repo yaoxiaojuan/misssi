@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactMarkdown  from 'react-markdown';
-import { articleList } from '../article/articleList';
+import { articleList } from '../article/list';
 import './article.css';
 
 

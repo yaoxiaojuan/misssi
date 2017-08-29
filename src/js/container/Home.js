@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ArticleList from '../components/ArticleList';
+import ArticleList from '../container/ArticleList';
 
 export default class Home extends Component {
   render() {
