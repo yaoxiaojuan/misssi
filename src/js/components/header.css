@@ -2,14 +2,14 @@ header{
   margin: 2em 0;
   text-align: center;
 }
-img{
+header img{
   width: 10em;
   height: 10em;
   display: block;
   margin: auto auto -4em;
   background: #fcfcfc;
 }
-ul li a{
+header ul li a{
   color: #999;
   line-height: 1.2em;
 }

@@ -16,6 +16,9 @@ ul li{
 ul li:last-child{
   margin-right: 0;
 }
+h1, p{
+  margin: .5em 0;
+}
 
 .container{
   width: 640px;
@@ -28,9 +31,11 @@ ul li:last-child{
 }
 a{
   text-decoration: none;
+  color: #444;
 }
 a:hover{
   text-decoration: underline;
+  color: #3294a3;
 }
 .dark{
   color: #999;
