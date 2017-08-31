@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link,Route } from 'react-router-dom';
 import { demos }from '../demo/list';
-import GameMap from '../demo/GameMap';
 
 export default class DemoList extends Component {
   getDemos = () => {
@@ -23,7 +22,6 @@ export default class DemoList extends Component {
     return (
       <section>
         <ul>{ this.getDemos() }</ul>
-        <Route exact path="/demo/gamemap" component={GameMap}/>
       </section>
     );
   }
