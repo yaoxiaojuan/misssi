@@ -21,12 +21,12 @@ export default class App extends Component {
         <section className="container">
           <Header/>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/about" component={About}/>
+          <Route path="/about" component={About}/>
           <Route path="/tags" component={Tags}/>
           <Route path="/article" exact component={ArticleList}/>
           <Route path="/article/:id" exact component={ArticleInfo}/>
           <Route path="/demo" component={DemoList}/>
-          <Route exact path="/demo/gamemap" component={GameMap}/>
+          <Route path="/demo/gamemap" component={GameMap}/>
           <Footer/>
         </section>
       </Router>
