@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './container/Home';
 import About from './container/About';
 import Tags from './container/Tags';
+import Connect from './container/Connect';
 import ArticleInfo from './container/ArticleInfo';
 import ArticleList from './container/ArticleList';
 
@@ -23,6 +24,7 @@ export default class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/tags" component={Tags}/>
+          <Route path="/connect" component={Connect}></Route>
           <Route path="/article" exact component={ArticleList}/>
           <Route path="/article/:id" exact component={ArticleInfo}/>
           <Route path="/demo" component={DemoList}/>
