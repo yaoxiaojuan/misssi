@@ -1,9 +1,16 @@
-import article20170828 from './20170828.md';
-import Demo20170829 from './20170829demo/20170829.md';
+import article20170828 from './article20170828.md';
+import demo20170829 from './demo20170829.md';
 import article20170831 from './article20170831.md';
+import article20170905 from './article20170905.md';
 
 export const articles = {
-  20170828: {
+  'article20170905': {
+    title: "读书：《理家理心》《过犹不及》《但愿婚前我知道》",
+    info: "用心探索，一系列书籍实践，不单是整理生活空间更是整理生命空间。",
+    date: "2017-09-05 9:00AM",
+    content: article20170905
+  },
+  'article20170828': {
     title: "如何使用MarkDown写博客",
     info: "简单说明本博客系统使用MD写文档的实践经验，同时写文档过程中实际用到的MD语法做简要记录",
     date: "2017-08-28 9:00PM",
@@ -13,7 +20,7 @@ export const articles = {
     title: "Demo：纯css做比赛对战图",
     info: "响应式，目前兼容至Chrome",
     date: "2017-08-29 8:00PM",
-    content: Demo20170829
+    content: demo20170829
   },
   'article20170831': {
     title: "深入探究vertical-align和line-height",
