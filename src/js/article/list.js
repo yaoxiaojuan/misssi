@@ -2,6 +2,7 @@ import article20170828 from './article20170828.md';
 import demo20170829 from './demo20170829.md';
 import article20170831 from './article20170831.md';
 import article20170905 from './article20170905.md';
+import article20170906 from './article20170906.md';
 
 export const articles = {
   'article20170905': {
@@ -9,6 +10,12 @@ export const articles = {
     info: "用心探索，一系列书籍实践，不单是整理生活空间更是整理生命空间。",
     date: "2017-09-05 9:00AM",
     content: article20170905
+  },
+  'article20170906': {
+    title: "CSS命名与CSS文件管理",
+    info: "之前写CSS命名上很乱，这个问题困扰我很久。类名如何规划？CSS文件如何整理？这是困扰我很久的写样式问题，这篇文章将回答这两个问题，注意，这只是众多方法中我打算尝试的一种方法，好与不好，等我用完再说。",
+    date: "2017-09-06 9:00AM",
+    content: article20170906
   },
   'article20170828': {
     title: "如何使用MarkDown写博客",
