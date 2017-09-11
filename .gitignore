@@ -7,3 +7,4 @@ yarn-error.log
 build
 build/**
 .DS_Store
+local
