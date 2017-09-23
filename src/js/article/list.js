@@ -3,10 +3,17 @@ import demo20170829 from './demo/20170829.md';
 import demo20170911 from './demo/20170911.md';
 import css20170831 from './css/20170831.md';
 import css20170906 from './css/20170906.md';
+import css20170923 from './css/20170923.md';
 // import life20170905 from './life/20170905.md';
 // import bible20170910 from './bible/20170910.md';
 
 export const articles = {
+  'demo20170923': {
+    title: "BFC",
+    info: "深入挖掘布局的本质，之前遇到样式问题就想办法解决而不求其原因，总有一种被CSS牵着鼻子👃走的感觉。现在开始，我要反击了！！！",
+    date: "2017-09-23 10:30AM",
+    content: css20170923
+  },
   'demo20170911': {
     title: "HTML页面转图片",
     info: "把页面的一部分DOM结构转成图片，并下载下来。",
