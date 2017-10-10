@@ -37,6 +37,9 @@ a:hover{
   text-decoration: underline;
   color: #3294a3;
 }
+.flex{
+  display: flex;
+}
 .dark{
   color: #999;
 }

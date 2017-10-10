@@ -13,8 +13,8 @@ import ArticleList from './container/ArticleList';
 
 import DemoList from './container/DemoList';
 import GameMap from './demo/GameMap';
+import Components from './demo/components/Index';
 
-// TODO: 线上路由不可用bug修复
 export default class App extends Component {
   render() {
     return (
@@ -27,8 +27,9 @@ export default class App extends Component {
           <Route path="/connect" component={Connect}></Route>
           <Route path="/article" exact component={ArticleList}/>
           <Route path="/article/:id" exact component={ArticleInfo}/>
-          <Route path="/demo" component={DemoList}/>
-          <Route path="/demo/gamemap" component={GameMap}/>
+          <Route path="/demo" exact component={DemoList}/>
+          <Route path="/demo/gamemap" exact component={GameMap}/>
+          <Route path="/demo/components" exact component={Components}/>
           <Footer/>
         </section>
       </Router>
