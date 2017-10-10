@@ -4,6 +4,7 @@ import demo20170911 from './demo/20170911.md';
 import css20170831 from './css/20170831.md';
 import css20170906 from './css/20170906.md';
 import css20170923 from './css/20170923.md';
+import css20170925 from './css/20170925.md';
 import css20171010 from './css/20171010.md';
 // import life20170905 from './life/20170905.md';
 // import bible20170910 from './bible/20170910.md';
@@ -14,6 +15,12 @@ export const articles = {
     info: "使用flex踩到一个坑，引起的一系列反应。",
     date: "2017-10-10 4:30AM",
     content: css20171010
+  },
+  'css20170925': {
+    title: "深入探究CSS选择器: nth-child(n)",
+    info: "CSS3提供了很强大的css选择功能，今天踩到一个坑，然后发现。。。(✿◡‿◡)",
+    date: "2017-09-25 9:30PM",
+    content: css20170925
   },
   'demo20170923': {
     title: "BFC",
