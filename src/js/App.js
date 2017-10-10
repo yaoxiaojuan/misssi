@@ -12,7 +12,7 @@ import ArticleInfo from './container/ArticleInfo';
 import ArticleList from './container/ArticleList';
 
 import DemoList from './container/DemoList';
-import GameMap from './demo/GameMap';
+import GameMap from './demo/gamemap/GameMap';
 import Components from './demo/components/Index';
 
 export default class App extends Component {
