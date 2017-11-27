@@ -10,10 +10,10 @@ export default class Header extends Component {
       <header>
         <div className="logoBox">
           <img src={ logo } alt="LUCKY YAO"/>
-          <h3>LUCKY&nbsp;YAO</h3>
+          <h3>MissSi</h3>
           <p>作者&nbsp;
             <Link to={"/connect"}>
-              <span className="highLight">要笑娟</span>
+              <span className="highLight">四姑娘</span>
             </Link>
           </p>
         </div>
