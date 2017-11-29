@@ -4,5 +4,8 @@ export const demos = {
   },
   'components': {
     title: "组件",
+  },
+  'layout': {
+    title: "常见布局",
   }
 }

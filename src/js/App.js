@@ -14,6 +14,7 @@ import ArticleList from './container/ArticleList';
 import DemoList from './container/DemoList';
 import GameMap from './demo/gamemap/GameMap';
 import Components from './demo/components/Index';
+import Layout from './demo/layout/Layout';
 
 export default class App extends Component {
   render() {
@@ -29,7 +30,8 @@ export default class App extends Component {
           <Route path="/article/:id" exact component={ArticleInfo}/>
           <Route path="/demo" exact component={DemoList}/>
           <Route path="/demo/gamemap" exact component={GameMap}/>
-          <Route path="/demo/components" exact component={Components}/>
+          <Route path="/demo/components" exact component={Components} />
+          <Route path="/demo/layout" exact component={Layout}/>
           <Footer/>
         </section>
       </Router>
