@@ -6,8 +6,15 @@ import css20170906 from './css/20170906.md';
 import css20170923 from './css/20170923.md';
 import css20170925 from './css/20170925.md';
 import css20171010 from './css/20171010.md';
+import css20171129 from './css/20171129.md';
 
 export const articles = {
+  'css20171129': {
+    title: "CSS踩坑记录",
+    info: "一脚又一脚，都是泪~~~~(>_<)~~~~，持续更新",
+    date: "2017-11-29 2:30PM",
+    content: css20171129
+  },
   'css20171010': {
     title: "深入探究弹性布局",
     info: "使用flex踩到一个坑，引起的一系列反应。",

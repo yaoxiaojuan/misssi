@@ -9,7 +9,7 @@ export default class Header extends Component {
     return (
       <header>
         <div className="logoBox">
-          <img src={ logo } alt="LUCKY YAO"/>
+          <img src={ logo } alt="MissSi"/>
           <h3>MissSi</h3>
           <p>作者&nbsp;
             <Link to={"/connect"}>
