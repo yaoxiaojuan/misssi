@@ -1,4 +1,4 @@
-.switch{
+.switch {
   border: none;
   width: 60px;
   line-height: 24px;
@@ -10,9 +10,10 @@
   transition: all 0.5s;
   cursor: pointer;
   text-align: left;
+  outline: none;
 }
-.switch::before{
-  content: '';
+
+.switch__btn {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -21,11 +22,36 @@
   right: 2px;
   top: 2px;
   transition: right 0.5s;
+  color: #329da3;
 }
-.close{
+
+.close {
   background: #feae23;
   text-align: right;
 }
-.close::before{
+
+.close .switch__btn {
   right: 38px;
+}
+
+.switch__btn_loading {
+  animation: ani-loading 1s linear infinite;
+  /* 这里可以放一个loading icon */
+  border-bottom: 1px solid #329da3;
+}
+
+.loading {
+  opacity: .5;
+}
+
+@keyframes ani-loading {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
