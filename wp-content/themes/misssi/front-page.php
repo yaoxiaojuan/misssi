@@ -10,10 +10,10 @@
       <div class="w">
         <header id="header" class="header">
           <div class="header__info inline-block">
-            <div class="header__logo font-14 inline-block"><a href="/"></a>MissSi</div>
+            <div class="header__logo font-14 inline-block"><a class="font-white" href="/">MissSi</a></div>
             <div id="burger" class="burger mobile inline-block">
-              <div class="bar"></div>
-              <div class="bar"></div>
+              <div class="bar bg-white"></div>
+              <div class="bar bg-white"></div>
             </div>
           </div>
           <?php wp_nav_menu(array(
@@ -23,7 +23,7 @@
           ?>
         </header>
         <div class="home__text vertical-middle">
-          <p class="margin--bottom-20 font-14">你好！欢迎来到<span class="miss-bg">&nbsp;MissSi&nbsp;</span></p>
+          <p class="margin--bottom-20 font-14">你好！欢迎来到<span class="bg-miss">&nbsp;MissSi&nbsp;</span></p>
           <span class="text--typed font-40"></span>
           <div class="margin--top-40">
             <button class="font-18">阅读文章</button>
@@ -46,6 +46,5 @@
         });
       });
     </script>
-    <script src="wp-content/themes/misssi/scripts.js"></script>
   </body>
 </html>

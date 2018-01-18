@@ -14,6 +14,10 @@ html,body {
   vertical-align: middle;
   width: 100%;
 }
+a{
+  color: #666;
+  text-decoration: none;
+}
 .w{
   max-width: 1200px;
   margin: 0 auto;
@@ -52,12 +56,18 @@ html,body {
 .float-right{
   float: right;
 }
-.miss{
+.font-miss{
   color: #de4c4f;
 }
-.miss-bg{
+.font-white{
+  color: #fff;
+}
+.bg-miss{
   background: #de4c4f;
   color: #fff;
+}
+.bg-white{
+  background: #fff;
 }
 
 button{
@@ -82,34 +92,56 @@ button:hover{
   padding-top: 1em;
   padding-bottom: 1em;
   position: relative;
-}
-.header__logo{
-  line-height: 3em;
+  box-sizing: border-box;
+  line-height: 50px;
+  min-height: 50px;
 }
 .header__nav .menu-item{
   display: inline-block;
   margin-right: 3em;
-  line-height: 3em;
+}
+.header__nav .menu-item.current-menu-item{
+  border-bottom: 2px solid #de4c4f;
 }
 .header__nav a{
-  color: #fff;
+  color: #666;
   text-decoration: none;
 }
 .header__nav .menu-item:last-child{
   margin: 0;
 }
+.miss-home{
+  transform: translateY(-1px);
+  color: #fff;
+}
+.miss-home .header__nav a{
+  color: #fff;
+}
 @media (max-width: 600px) {
+  .miss-home .burger .bar{
+    background: #fff;
+  }
+  .miss-home .header__info{
+    color: #fff;
+  }
+  .miss-home .header__nav a{
+    color: #777;
+  }
+  .miss-home .header__info{
+    border: none;
+  }
   .burger{
     position: relative;
     width: 20px;
+    height: 50px;
     float: left;
   }
   .burger .bar{
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #fff;
-    top: 13px;
+    background: #ccc;
+    top: 19px;
     transition: all 300ms;
   }
   .burger .bar:nth-child(2){
@@ -129,11 +161,12 @@ button:hover{
     position: fixed;
     left: 0;
     right: 0;
-    color: #fff;
+    top: 0;
     z-index: 9999;
     text-align: center;
+    border-bottom: 2px solid #de4c4f;
   }
-  .header.expanded .header__info{
+  .header.expanded .header__info a{
     color: #777;
   }
   .header__nav{
