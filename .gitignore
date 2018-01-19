@@ -2,10 +2,9 @@ node_modules
 node_modules/**
 *.scssc
 *.css.map
-yarn.lock
 yarn-error.log
 build
 build/**
 .DS_Store
-local
 .idea/
+_gsdata_
