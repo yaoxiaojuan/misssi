@@ -99,14 +99,12 @@
     display: block;
     margin: 0;
   }
+  .header__nav .menu-item.current-menu-item{
+    border: 0;
+  }
   .header__nav a{
     color: #777;
     display: block;
     cursor: pointer;
-  }
-  .header__nav a:hover,
-  .header__nav a:active,
-  .header__nav a:linked{
-    color: #000;
   }
 }
