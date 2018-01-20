@@ -33,3 +33,42 @@
   top: 0;
   border: none;
 }
+/* sidebar */
+.posts_sidebar{
+  float: left;
+  margin: 100px;
+}
+.cat-item a:before{
+  content: '#';
+}
+.cat-item a{
+  font-size: 24px;
+  letter-spacing: 0.3px;
+  font-weight: 150;
+  padding-right: 10px;
+  line-height: 1;
+  margin-bottom: 10px;
+  display: block;
+  }
+}
+.cat-item a:hover{
+  color: #de4c4f;
+}
+.cat-item .children{
+  padding-left: 10px;
+}
+.cat-item .children .cat-item a{
+  font-size: 20px;
+  color: #888;
+}
+.current-cat-parent>a,
+.current-cat>a,
+.cat-item .children .cat-item>a{
+  border-right: 2px solid #de4c4f;
+  color: #000;
+  font-weight: 500;
+}
+.cat-item .children .current-cat>a{
+  font-weight: 150;
+  border: none;
+}

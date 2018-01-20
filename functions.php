@@ -12,6 +12,10 @@
     register_sidebar(array(
       'name' => __( 'Sidebar'),
       'id' => 'sidebar-1',
+      'before_title' => '<span class="hidden">',
+      'after_title' => '</span>',
+      'before_widget' => '<aside class="posts_sidebar pc">',
+      'after_widget'  => '</aside>',
     ));
     register_nav_menus(array(
       'primary' => __('Primary'),
