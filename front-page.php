@@ -6,7 +6,7 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <div class="miss-home">
+    <div class="misssi">
       <div class="w">
         <header id="header" class="header">
           <div class="header__info inline-block">
@@ -22,7 +22,7 @@
             ));
           ?>
         </header>
-        <div class="home__text vertical-middle">
+        <div class="misssi__text vertical-middle">
           <p class="margin--bottom-20 font-14">你好！欢迎来到<span class="bg-miss">&nbsp;MissSi&nbsp;</span></p>
           <span class="text--typed font-40"></span>
           <div class="margin--top-40">

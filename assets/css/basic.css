@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  height: 100%;
+  font-family: "PingHei","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+  font-size: 12px;
+  font-size: 0.8vw;
+}
+a{
+  color: #666;
+  text-decoration: none;
+}
+/* basic */
+.vertical-middle {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+.w{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.mobile{
+  visibility: hidden;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-18{
+  font-size: 1.8em;
+}
+.font-24{
+  font-size: 2.4em;
+}
+.font-32{
+  font-size: 3.2em;
+}
+.font-40{
+  font-size: 4em;
+}
+.inline-block{
+  display: inline-block;
+}
+.margin-20{
+  margin: 1em;
+}
+.margin--bottom-20{
+  margin-bottom: 1em;
+}
+.margin--top-40{
+  margin-top: 2em;
+}
+.float-right{
+  float: right;
+}
+.font-miss{
+  color: #de4c4f;
+}
+.font-white{
+  color: #fff;
+}
+.bg-miss{
+  background: #de4c4f;
+  color: #fff;
+}
+.bg-white{
+  background: #fff;
+}
+/* component */
+button{
+  padding: 0 3em;
+  height: 3em;
+  line-height: 3em;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 2.5em;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+}
+button:hover{
+  background: #de4c4f;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  html, body{
+    font-size: 5px;
+  }
+  .mobile {
+    visibility: visible;
+  }
+}

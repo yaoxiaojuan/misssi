@@ -7,4 +7,4 @@ build
 build/**
 .DS_Store
 .idea/
-_gsdata_
+_gsdata_/*
