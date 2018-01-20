@@ -10,6 +10,17 @@
     'primary' => __('Primary Menu'),
     'footer' => __('Footer Menu')
   ));
+  function themename_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Sidebar'),
+        'id'            => 'sidebar-1',
+    ) );
+    register_sidebar( array(
+        'name'          => __( 'Search'),
+        'id'            => 'Search',
+    ) );
+  }
+  add_action( 'widgets_init', 'themename_widgets_init' );
   function console_log( $data ){
     echo '<script>';
     echo 'console.log('. json_encode( $data ) .')';

@@ -1,5 +1,6 @@
 <?php get_header();?>
 <div class="w posts">
+  <h1><?php single_cat_title(); ?></h1>
   <?php
     get_search_form();
     get_sidebar();

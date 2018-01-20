@@ -1,5 +1,6 @@
 <?php get_header();?>
 <div class="w posts">
+  <h1>search result for:<?php the_search_query(); ?></h1>
   <?php
     get_search_form();
     get_sidebar();
@@ -14,4 +15,3 @@
     endif;?>
   </div>
 <?php  get_footer(); ?>
-</div>
