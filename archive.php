@@ -5,7 +5,7 @@
     get_search_form();
     get_sidebar();
   ?>
-  <div class="posts__content" style="width: 880px;">
+  <div class="posts_content" style="width: 880px;">
     <?php if(have_posts()) :
       while(have_posts()): the_post();
         get_template_part(('content-article'));

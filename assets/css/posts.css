@@ -1,11 +1,35 @@
-.posts__info {
+.posts_info {
   padding: 100px 20px;
   text-align: center;
 }
-.post__sidebar{
+.posts_sidebar{
   float: left;
   margin-right: 10em;
 }
-.post__content{
+.posts_content{
   max-width: 880px;
+}
+.posts_form{
+  max-width: 440px;
+  margin: 35px auto 15px;
+  position: relative;
+}
+.posts_form input[name="s"]{
+  color: #3d464d;
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.posts_form input[type="submit"]{
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  background: url(../images/search.svg) no-repeat center;
+  background-size: 55%;
+  top: 0;
+  border: none;
 }

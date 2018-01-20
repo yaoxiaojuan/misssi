@@ -8,6 +8,7 @@ html,body {
   letter-spacing: 0.4px;
 }
 a{color: #666;text-decoration: none;}
+a, input[type="submit"]{cursor: pointer;}
 h1{font-size: 40px;}
 h1, h2{font-weight: normal;line-height: 2;}
 .mobile{display: none;}
