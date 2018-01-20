@@ -31,9 +31,21 @@
   padding: 0 5%;
   box-sizing: border-box;
 }
-.text--typed, .typed-cursor{
-  font-size: 4em;
+.misssi .header{
+  margin: 0 -5%;
 }
-.text--typed strong{
-  text-decoration: underline;
+@media (max-width: 600px){
+  .misssi .burger .bar{
+    background: #fff;
+  }
+  .misssi .header__info{
+    color: #fff;
+    border: none;
+  }
+  .expanded a{
+    color: #666;
+  }
+  .expanded .burger .bar{
+    background: #ccc;
+  }
 }

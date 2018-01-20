@@ -1,65 +1,25 @@
 /* header */
 .header{
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 10px 5%;
   position: relative;
   box-sizing: border-box;
   line-height: 50px;
-  min-height: 50px;
 }
 .header__nav .menu-item{
   display: inline-block;
-  margin-right: 3em;
-}
-.header__nav .menu-item.current-menu-item{
-  border-bottom: 2px solid #de4c4f;
-}
-.header__nav a{
-  color: #666;
-  text-decoration: none;
+  margin-right: 30px;
 }
 .header__nav .menu-item:last-child{
   margin: 0;
 }
+.header__nav .current-menu-item{
+  border-bottom: 2px solid #de4c4f;
+}
+.header__nav a{
+  display: block;
+  cursor: pointer;
+}
 @media (max-width: 600px) {
-  .misssi .burger .bar{
-    background: #fff;
-  }
-  .misssi .header__info{
-    color: #fff;
-  }
-  .misssi .header__nav a{
-    color: #777;
-  }
-  .misssi .header__info{
-    border: none;
-  }
-  .burger{
-    position: relative;
-    width: 20px;
-    height: 50px;
-    float: left;
-  }
-  .burger .bar{
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: #ccc;
-    top: 19px;
-    transition: all 300ms;
-  }
-  .burger .bar:nth-child(2){
-    transform: translateY(8px);
-  }
-  .header.expanded .burger .bar{
-    background: #ccc;
-  }
-  .header.expanded .burger .bar:nth-child(1){
-    transform: translateY(5px) rotate(45deg);
-  }
-  .header.expanded .burger .bar:nth-child(2){
-    transform: translateY(5px) rotate(-45deg);
-  }
   .header__info{
     padding: 0 5%;
     position: fixed;
@@ -69,9 +29,6 @@
     z-index: 9999;
     text-align: center;
     border-bottom: 2px solid #de4c4f;
-  }
-  .header.expanded .header__info a{
-    color: #777;
   }
   .header__nav{
     position: fixed;
@@ -85,9 +42,6 @@
     transition: bottom 0.6s;
     overflow: hidden;
   }
-  .header.expanded .header__nav{
-    bottom: 0;
-  }
   .header__nav .menu{
     position: absolute;
     top: 50%;
@@ -99,12 +53,10 @@
     display: block;
     margin: 0;
   }
-  .header__nav .menu-item.current-menu-item{
+  .header__nav .current-menu-item{
     border: 0;
   }
-  .header__nav a{
-    color: #777;
-    display: block;
-    cursor: pointer;
+  .expanded .header__nav{
+    bottom: 0;
   }
 }

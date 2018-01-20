@@ -1,8 +1,8 @@
+<?php get_header();?>
 <div class="w posts">
-  <?php get_header();?>
   <div class="posts__info">
     <h1>欢迎阅读MissSi的文章</h1>
-    <p>人点灯，不放在斗底下，是放在灯台上，就照亮一家的人。</p>
+    <p>人点灯，不放在斗底下，是放在灯台上，就照亮一家的人。MissSi与您分享·微光。</p>
   </div>
   <?php
     get_search_form();
@@ -17,5 +17,5 @@
       echo '<p> No content found</p>';
     endif;?>
   </div>
-  <?php  get_footer(); ?>
 </div>
+<?php  get_footer(); ?>

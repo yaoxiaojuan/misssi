@@ -1,0 +1,11 @@
+.posts__info {
+  padding: 100px 20px;
+  text-align: center;
+}
+.post__sidebar{
+  float: left;
+  margin-right: 10em;
+}
+.post__content{
+  max-width: 880px;
+}
