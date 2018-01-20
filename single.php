@@ -1,13 +1,22 @@
 <?php get_header();?>
-<div class="news_content">
-  <h1><?php the_title(); ?></h1>
-  <?php
-    if ( have_posts() ) : while ( have_posts() ) : the_post();
-    the_content();
-    endwhile;
-    else: ?>
-      <p><?php _e('抱歉，您查看的文章好像不存在诶。。。'); ?></p>
-    <?php endif; ?>
+<div class="w posts">
+  <div class="post_content">
+    <?php if(have_posts()) :
+      while(have_posts()): the_post();?>
+        <article class="margin--top-80">
+          <h2 class="font-xxl post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          <p class="font-m margin--vertical-20 font--weight-300">
+            <span class="font-miss"><?php the_category(', ') ?> </span>
+            <span class="font-gray">&nbsp;/&nbsp;<?php the_date() ?></span>
+          </p>
+          <div class="font-m font--weight-300">
+            <?php the_content(); ?>
+          </div>
+        </article>
+      <?php endwhile;
+    else :
+      echo '<p> No content found</p>';
+    endif;?>
+  </div>
 </div>
-
-<?php get_footer();?>
+<?php  get_footer(); ?>

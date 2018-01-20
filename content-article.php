@@ -4,6 +4,8 @@
     <span class="font-miss"><?php the_category(', ') ?> </span>
     <span class="font-gray">&nbsp;/&nbsp;<?php the_date() ?></span>
   </p>
-  <div class="font-m w600 font--weight-300"><?php the_excerpt(); ?></div>
+  <div class="font-m w600 font--weight-300">
+    <?php the_excerpt(); ?>
+  </div>
   <a href="<?php the_permalink(); ?>"><button class="margin--top-40" type="default" size='small'>Learn More&nbsp;→</button></a>
 </article>
