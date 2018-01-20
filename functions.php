@@ -10,15 +10,15 @@
 
   function widgets_init() {
     register_sidebar(array(
-      'name' => __( 'Sidebar'),
+      'name' => _( 'Sidebar'),
       'id' => 'sidebar-1',
       'before_title' => '<span class="hidden">',
       'after_title' => '</span>',
-      'before_widget' => '<aside class="posts_sidebar pc">',
+      'before_widget' => '<aside class="post_sidebar pc">',
       'after_widget'  => '</aside>',
     ));
     register_nav_menus(array(
-      'primary' => __('Primary'),
+      'primary' => _('Primary'),
     ));
   }
   add_action('widgets_init', 'widgets_init');

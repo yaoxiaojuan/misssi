@@ -22,7 +22,7 @@
 .misssi a{
   color: #fff;
 }
-.misssi__text{
+.misssi_text{
   letter-spacing: 2px;
   position: absolute;
   top: 50%;
@@ -34,11 +34,14 @@
 .misssi .header{
   margin: 0 -5%;
 }
+.misssi .header_info{
+  background: none;
+}
 @media (max-width: 600px){
   .misssi .burger .bar{
     background: #fff;
   }
-  .misssi .header__info{
+  .misssi .header_info{
     color: #fff;
     border: none;
   }

@@ -11,7 +11,7 @@ ul li{list-style: none;}
 a{color: #666;text-decoration: none;}
 a, input[type="submit"]{cursor: pointer;}
 h1{font-size: 40px;}
-h1, h2{font-weight: normal;line-height: 2;}
+h1, h2{font-weight: normal;}
 .hidden{display: none;}
 .mobile{display: none;}
 @media screen and (max-width: 600px) {
@@ -27,8 +27,10 @@ h1, h2{font-weight: normal;line-height: 2;}
 .font-xl{font-size: 24px;}
 .font-xxl{font-size: 32px;}
 .font-xxxl{font-size: 40px;}
-.font-miss{color: #de4c4f;}
+.font-miss,.font-miss>a{color: #de4c4f;}
 .font-white{color: #fff;}
+.font-gray{color: #aaa;}
+.font--weight-300{font-weight: 300}
 @media screen and (max-width: 600px) {
   .font-xl{font-size: 20px;}
   .font-xxl{font-size: 28px;}
@@ -42,7 +44,8 @@ h1, h2{font-weight: normal;line-height: 2;}
 .margin-20{margin: 20px;}
 .margin--bottom-20{margin-bottom: 20px;}
 .margin--top-40{margin-top: 40px;}
-
+.margin--top-80{margin-top: 80px;}
+.margin--vertical-20{margin: 20px 0;}
 /* layout */
 .vertical-middle {
   line-height: 1.5;
@@ -55,6 +58,7 @@ h1, h2{font-weight: normal;line-height: 2;}
   margin: 0 auto;
   padding: 0 5%;
 }
+.w600{max-width: 600px;}
 .inline-block{display: inline-block;}
 .float-right{float: right;}
 
@@ -68,11 +72,22 @@ button{
   color: #fff;
   text-align: center;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 500ms;
 }
 button:hover{
-  background: #de4c4f;
+  background: #de4c4f;;
   color: #fff;
+}
+button[size="small"]{
+  padding: 5px 15px;
+}
+button[type="default"]{
+  border-color: #de4c4f;
+  color: #de4c4f;
+}
+button[type="default"]:hover{
+  color: #fff;
+  background: rgba(222,72,79,.5);
 }
 @media(max-wiidth: 600px){
   button{

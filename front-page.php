@@ -9,7 +9,7 @@
     <div class="misssi">
       <div class="w">
         <?php get_template_part(('content-header')); ?>
-        <div class="misssi__text vertical-middle">
+        <div class="misssi_text vertical-middle">
           <p class="margin--bottom-20">你好！欢迎来到<span class="bg-miss">&nbsp;MissSi&nbsp;</span></p>
           <span class="text--typed font-xxxl">是放在灯台上，就照亮一家的人</span>
           <div class="margin--top-40">
