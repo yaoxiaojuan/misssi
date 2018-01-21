@@ -13,7 +13,7 @@
   margin: 0;
 }
 .header_nav .current-menu-item{
-  border-bottom: 2px solid #de4c4f;
+  border-bottom: 2px solid #f0484c;
 }
 .header_nav a{
   display: block;
@@ -28,7 +28,7 @@
     top: 0;
     z-index: 9999;
     text-align: center;
-    border-bottom: 2px solid #de4c4f;
+    border-bottom: 2px solid #f0484c;
     background: #fff;
   }
   .header_nav{

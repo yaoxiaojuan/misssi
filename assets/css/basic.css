@@ -27,7 +27,7 @@ h1, h2{font-weight: normal;}
 .font-xl{font-size: 24px;}
 .font-xxl{font-size: 32px;}
 .font-xxxl{font-size: 40px;}
-.font-miss,.font-miss>a{color: #de4c4f;}
+.font-miss,.font-miss>a{color: #f0484c;}
 .font-white{color: #fff;}
 .font-gray{color: #aaa;}
 .font--weight-300{font-weight: 300}
@@ -37,12 +37,13 @@ h1, h2{font-weight: normal;}
   .font-xxxl{font-size: 32px;}
 }
 /* bg */
-.bg-miss{background: #de4c4f;color: #fff;}
+.bg-miss{background: #f0484c;color: #fff;}
 .bg-white{background: #fff;}
 
 /* margin */
 .margin-20{margin: 20px;}
 .margin--bottom-20{margin-bottom: 20px;}
+.margin--bottom-40{margin-bottom: 40px;}
 .margin--top-40{margin-top: 40px;}
 .margin--top-80{margin-top: 80px;}
 .margin--vertical-20{margin: 20px 0;}
@@ -61,11 +62,13 @@ h1, h2{font-weight: normal;}
 .w600{max-width: 600px;}
 .inline-block{display: inline-block;}
 .float-right{float: right;}
+.text-center{text-align: center;}
 
 /* component */
 button{
-  padding: 10px 30px;
+  padding: 0 30px;
   line-height: 1.5;
+  line-height: 40px;
   background: none;
   border: 2px solid #fff;
   border-radius: 25px;
@@ -73,21 +76,40 @@ button{
   text-align: center;
   cursor: pointer;
   transition: all 500ms;
+  font-weight: 300;
+  font-size: 16px;
 }
 button:hover{
-  background: #de4c4f;;
+  background: #f0484c;;
   color: #fff;
 }
 button[size="small"]{
-  padding: 5px 15px;
+  padding: 0 20px;
+  line-height: 30px;
+  font-size: 14px;
+}
+button[size="large"]{
+  padding: 0 40px;
+  line-height: 50px;
+  font-size: 18px;
 }
 button[type="default"]{
-  border-color: #de4c4f;
-  color: #de4c4f;
+  border-color: #f0484c;
+  color: #f0484c;
 }
 button[type="default"]:hover{
   color: #fff;
-  background: rgba(222,72,79,.5);
+  opacity: .7;
+  background: rgba(222,72,79,.6);
+}
+button[type="miss"]{
+  background: #f0484c;
+  color: #fff;
+  border: none;
+}
+button[type="miss"]:hover{
+  background: #fff;
+  color: #f0484c;
 }
 @media(max-wiidth: 600px){
   button{
