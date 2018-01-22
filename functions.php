@@ -8,6 +8,7 @@
     wp_enqueue_script('script', get_template_directory_uri() . '/assets/js/scripts.js');
   }
   add_action('wp_enqueue_scripts', 'blog_resources');
+  add_theme_support( 'post-thumbnails' );
 
   function widgets_init() {
     register_sidebar(array(
