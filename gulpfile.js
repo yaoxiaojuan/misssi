@@ -22,7 +22,7 @@ gulp.task('images', function () {
     .pipe(gulp.dest('dist/images'))
 });
 gulp.task('auto', function () {
-  gulp.watch('assets/js/*.js', ['js'])
+  gulp.watch('assets/js/*.js', ['script'])
   gulp.watch('assets/css/*.css', ['css'])
   gulp.watch('assets/images/*.*', ['images'])
 });

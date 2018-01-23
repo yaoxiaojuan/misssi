@@ -10,8 +10,9 @@
     <?php if(have_posts()) :
       while(have_posts()): the_post();
         get_template_part(('content-article'));
-      endwhile;
-    else :
+      endwhile;?>
+      <p class="font-miss loadmore text-center pointer margin-20">loadmore</p>
+    <?php else :
       echo '<p> No content found</p>';
     endif;?>
   </div>
