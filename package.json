@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-jpegtran": "^5.0.2"
+  },
+  "name": "theme-misssi",
+  "description": "This is a wordpress blog theme named misssi,It's used in my blog -> [MissSi](http://misssi.net/).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyYao/blog.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "misssi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyYao/blog/issues"
+  },
+  "homepage": "https://github.com/luckyYao/blog#readme"
+}

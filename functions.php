@@ -1,11 +1,11 @@
 <?php
   function blog_resources() {
-    wp_enqueue_style('basic',  get_template_directory_uri() . '/assets/css/basic.css');
-    wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css', 'style');
-    wp_enqueue_style('misssi', get_template_directory_uri() . '/assets/css/misssi.css', 'style');
-    wp_enqueue_style('posts', get_template_directory_uri() . '/assets/css/posts.css', 'style');
-    wp_enqueue_style('page', get_template_directory_uri() . '/assets/css/page.css', 'style');
-    wp_enqueue_script('script', get_template_directory_uri() . '/assets/js/scripts.js');
+    wp_enqueue_style('basic',  get_template_directory_uri() . '/dist/css/basic.css');
+    wp_enqueue_style('header', get_template_directory_uri() . '/dist/css/header.css', 'style');
+    wp_enqueue_style('misssi', get_template_directory_uri() . '/dist/css/misssi.css', 'style');
+    wp_enqueue_style('posts', get_template_directory_uri() . '/dist/css/posts.css', 'style');
+    wp_enqueue_style('page', get_template_directory_uri() . '/dist/css/page.css', 'style');
+    wp_enqueue_script('script', get_template_directory_uri() . '/dist/js/scripts.js');
   }
   add_action('wp_enqueue_scripts', 'blog_resources');
   add_theme_support( 'post-thumbnails' );

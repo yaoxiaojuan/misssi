@@ -2,7 +2,7 @@
   <div class="header_info inline-block">
     <div class="header_logo inline-block">
       <a href="/">
-        <img style="vertical-align: sub;width: 20px" src="<?php echo get_template_directory_uri() . '/assets/images/favicon.png'; ?>" alt="logo" />
+        <img style="vertical-align: sub;width: 20px" src="<?php echo get_template_directory_uri() . '/dist/images/favicon.png'; ?>" alt="logo" />
         MissSi
       </a>
     </div>
