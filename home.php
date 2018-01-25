@@ -2,7 +2,7 @@
 <div class="w posts">
   <div class="post_info">
     <h1>Welcome to the Blog</h1>
-    <p>人点灯，不放在斗底下，是放在灯台上，就照亮一家的人。MissSi与您分享·微光。</p>
+    <p>Neither do people light a lamp and put it under a bowl. <br>Instead they put it on its stand, and it gives light to everyone in the house. </p>
     <?php get_search_form(); ?>
   </div>
   <?php dynamic_sidebar( 'sidebar-1' ); ?>

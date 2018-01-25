@@ -15,6 +15,9 @@
 .header_nav .current-menu-item {
   border-bottom: 2px solid #f0484c;
 }
+.header_nav .menu-item:hover a {
+  color: #000;
+}
 .header_nav a {
   display: block;
   cursor: pointer;
