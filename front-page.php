@@ -4,7 +4,7 @@
     <?php get_template_part(('content-header')); ?>
     <div class="misssi_text vertical-middle">
       <p class="margin--bottom-20">你好，欢迎来到&nbsp;MissSi&nbsp;</p>
-      <span class="text--typed font-xxxl">是放在灯台上，就照亮一家的人</span>
+      <p class="font-xxxl"><span class="text--type"></span></p>
       <div class="margin--top-40">
         <a href="<?php echo home_url('/').'index.php/blog'; ?>"><button type="miss" size="large" class="font-18">阅读文章</button></a>
       </div>

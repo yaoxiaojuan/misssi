@@ -1,6 +1,7 @@
 <?php get_header();?>
 <div class="contact">
   <?php get_template_part(('content-header')); ?>
+  [contact-form-7 id="29" title="contact"]
   <form action="" class="contact_content">
     <h1 class="margin--bottom-40" style="font-weight: 300">GET IN TOUCH</h1>
     <p class="font-m">WHAT IS ON YOUR MIND?</p>
