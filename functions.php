@@ -5,6 +5,7 @@
     wp_enqueue_style('misssi', get_template_directory_uri() . '/dist/css/misssi.css', 'style');
     wp_enqueue_style('posts', get_template_directory_uri() . '/dist/css/posts.css', 'style');
     wp_enqueue_style('page', get_template_directory_uri() . '/dist/css/page.css', 'style');
+    wp_enqueue_style('cv', get_template_directory_uri() . '/dist/css/cv.css', 'style');
     wp_enqueue_script('script', get_template_directory_uri() . '/dist/js/scripts.js');
   }
   add_action('wp_enqueue_scripts', 'blog_resources');

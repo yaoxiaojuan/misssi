@@ -1,1 +1,1 @@
-h1{color:red}
+body{background:#ececec}.cv{max-width:1000px;margin:0 auto;position:relative;transform:translateY(0);background:#fff;height:100%;overflow:hidden}.cv .info{position:fixed;top:0;bottom:0;left:0;right:700px;background:#2a97ea;color:#fff}.cv .info img{width:100px;height:100px;border-radius:50%;border:3px solid #fff}.cv .content{padding:20px 20px 20px 330px;height:100%;overflow-y:scroll}@media (max-width: 600px){.cv{max-width:100%}}
