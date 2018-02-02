@@ -111,23 +111,25 @@ h2 {
 }
 
 /* margin */
-.margin-20 {
-  margin: 20px;
+
+@for $i from 1 through 15 {
+  .margin-#{$i * 5} {
+    margin: #{$i} * 5;
+  }
+  .margin--bottom-#{$i * 5} {
+    margin-bottom: #{$i * 5};
+  }
+  margin--top-#{$i * 5} {
+    margin-top: #{$i * 5};
+  }
+  .margin--vertical-#{$i * 5} {
+    margin: #{$i * 5} 0;
+  }
 }
-.margin--bottom-20 {
-  margin-bottom: 20px;
-}
-.margin--bottom-40 {
-  margin-bottom: 40px;
-}
-.margin--top-40 {
-  margin-top: 40px;
-}
-.margin--top-80 {
-  margin-top: 80px;
-}
-.margin--vertical-20 {
-  margin: 20px 0;
+
+/* padding */
+.padding--bottom-20 {
+  padding-bottom: 20px;
 }
 
 /* layout */
