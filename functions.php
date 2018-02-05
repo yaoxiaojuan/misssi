@@ -5,7 +5,9 @@
     wp_enqueue_style('misssi', get_template_directory_uri() . '/dist/css/misssi.css', 'style');
     wp_enqueue_style('posts', get_template_directory_uri() . '/dist/css/posts.css', 'style');
     wp_enqueue_style('page', get_template_directory_uri() . '/dist/css/page.css', 'style');
+    wp_enqueue_style('md', get_template_directory_uri() . '/dist/css/md.css', 'style');
     wp_enqueue_script('script', get_template_directory_uri() . '/dist/js/scripts.js');
+    wp_enqueue_script('md', get_template_directory_uri() . '/dist/js/md.js');
   }
   add_action('wp_enqueue_scripts', 'blog_resources');
   add_theme_support( 'post-thumbnails' );

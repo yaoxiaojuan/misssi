@@ -1,0 +1,1 @@
+!function(){var t=document.getElementsByTagName("ol");for(i=0;i<t.length;i++){var e=t[i].getAttribute("start")-1;t[i].setAttribute("style","counter-reset:ol "+e+";")}}();
