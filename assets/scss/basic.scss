@@ -112,18 +112,18 @@ h2 {
 
 /* margin */
 
-@for $i from 1 through 15 {
+@for $i from 1 through 20 {
   .margin-#{$i * 5} {
-    margin: #{$i} * 5;
+    margin: #{$i * 5}px;
   }
   .margin--bottom-#{$i * 5} {
-    margin-bottom: #{$i * 5};
+    margin-bottom: #{$i * 5}px;
   }
-  margin--top-#{$i * 5} {
-    margin-top: #{$i * 5};
+  .margin--top-#{$i * 5} {
+    margin-top: #{$i * 5}px;
   }
   .margin--vertical-#{$i * 5} {
-    margin: #{$i * 5} 0;
+    margin: #{$i * 5}px 0;
   }
 }
 
