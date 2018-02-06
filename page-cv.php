@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>要笑娟的简历</title>
+  <link rel="icon" href="<?php echo get_template_directory_uri(). '/dist/images/favicon-cv.png'?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(). '/dist/css/cv.css'?>">
 </head>
