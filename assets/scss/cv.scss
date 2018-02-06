@@ -77,6 +77,53 @@ body {
   }
 }
 
+@media(max-width: 600px) {
+  .cv {
+    .info {
+      width: 100%;
+      padding: 60px 20px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      left: -100%;
+      transition: left 300ms;
+    }
+    .content {
+      position: relative;
+      left: 0;
+      padding: 40px 20px;
+      transition: left 300ms;
+    }
+  }
+  .cv .menu {
+    width: 50px;
+    height: 50px;
+    background: #1c94d2;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #ccc;
+    z-index: 2;
+    transition: all 300ms;
+  }
+  .expended {
+    .info {
+      left: 0;
+    }
+    .content {
+      left: 100%;
+    }
+    .menu {
+      content: '←';
+      background: #fff;
+      color: $main-color;
+    }
+  }
+}
+
 // left: basic info
 .info--line {
   border-left: 1px solid #fff;
@@ -170,6 +217,18 @@ body {
   }
   .cell:nth-child(2) {
     font-weight: 300;
+  }
+}
+
+@media(max-width: 600px) {
+  .table,
+  .table .row,
+  .table .row .cell {
+    display: block;
+    text-align: left;
+  }
+  .table {
+    padding-left: 10px;
   }
 }
 

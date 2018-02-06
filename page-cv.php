@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(). '/dist/css/cv.css'?>">
 </head>
 <body>
-<section class="cv">
+<section class="cv" id="cv">
   <div class="info">
     <div class="info__basic">
       <img class="photo" src="http://ovjyf065b.bkt.clouddn.com/wechat.png" alt="头像">
@@ -131,6 +131,7 @@
       </div>
     </div>
   </div>
+  <button id="menu" class="menu">→</button>
 </section>
 <script>
   (function() {
@@ -142,6 +143,20 @@
       dragbar.style.left = value + '%';
     });
   })();
+  (function() {
+    var cv = document.querySelector('#cv');
+    var menu = document.querySelector('#menu');
+    menu.addEventListener('click', function () {
+      var classes = cv.getAttribute('class');
+      if(classes.indexOf('expended') !== -1) {
+        cv.setAttribute('class', 'cv');
+        menu.innerText = "→";
+      } else {
+        cv.setAttribute('class', 'cv expended');
+        menu.innerText = "←";
+      }
+    })
+  })()
 </script>
 </body>
 </html>
