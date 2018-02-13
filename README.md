@@ -3,7 +3,7 @@ This is a wordpress blog theme named misssi,It's used in my blog -> [MissSi](htt
 
 It looks like this:
 
-<img src="http://ovjyf065b.bkt.clouddn.com/misssi/a.png" alt="misssi's blog" style="width: 100%;border: 1px solid #ccc;">
+<img src="./dist/images/index.jpg" alt="misssi's blog" style="width: 100%;border: 1px solid #ccc;">
 
 <img src="http://ovjyf065b.bkt.clouddn.com/misssi/b.png" alt="misssi's blog" style="width: 100%;border: 1px solid #ccc;">
 
